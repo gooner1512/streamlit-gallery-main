@@ -1,0 +1,77 @@
+.block-4{
+    background-color: #FFF;
+    padding: 10px 10px 10px 20px;
+    border-radius: 5px;
+    border-left: 0.5rem solid #5FC752 !important;
+    box-shadow: 0 0 3px #cccccc;
+}
+.block-4-h2{
+    padding: 0;
+    margin: 0;
+}
+.block-4-p{
+    margin-bottom: 0.5rem;
+}
+.block-4-p-red{
+    margin-bottom: 0.5rem;
+    color:#ff2b2b
+}
+.block-4-p-green{
+    margin-bottom: 0.5rem;
+    color:#5FC752
+}
+.css-1vq4p4l{
+    padding: 2rem 1rem 1.5rem;
+}
+.column{
+    box-shadow: 0 0 3px #cccccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.plot-container>div {
+    box-shadow: 0 0 3px #cccccc;
+    border-radius: 5px;
+    overflow: auto;
+}
+.main > .block-container{
+    padding: 0rem 2rem;
+}
+div.stButton > button:first-child {
+    background: linear-gradient(to left, #0bc9ff, #3b85f3);
+    color: #FFF;
+}
+.css-llewwt:focus:not(:active) {
+    border-color: rgb(59, 133, 243);
+    color: rgb(255 255 255);
+}
+[data-testid="stHeader"]{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 0.5rem;
+    background: none;
+    outline: none;
+    z-index: 999990;
+    display: block;
+}
+section[data-testid="stSidebar"] button[kind="secondary"] {
+    width: 100%;
+    background: linear-gradient(to right, #0bc9ff, #3b85f3) !important;
+}
+.stAlert{
+    display: none;
+}
+div[data-testid="stDecoration"]{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 0;
+    z-index: 999990;
+    background: none;
+}
+div [data-testid="stVerticalBlock"] {    
+    gap: 0.5rem;
+}

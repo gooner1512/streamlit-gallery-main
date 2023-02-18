@@ -1,0 +1,135 @@
+color_palette_1{
+    color: #0081C9;
+    color: #5BC0F8;
+    color: #FFC93C;
+}
+color_palette_2{
+    color: #ffbe0b;
+    color: #fb5607;
+    color: #ff006e;
+    color: #8338ec;
+    color: #3a86ff;
+    color: #70e000;
+    color: #9d4edd;
+}
+color_palette_3{
+    color: #9221ba;
+    color: #4675ed;
+    color: #1bcfd4;
+    color: #61fc6c;
+    color: #ddff00;
+    color: #fb8f13;
+    color: #fa2e00;
+    color: #7a0402;  
+    color: linear-gradient(to right, #ffbe0b, #fb5607);  
+}
+color_palette_3_blurred{
+    color: #d3a2e5;
+    color: #9db0e1;
+    color: #a1dfe1;
+    color: #caf8cd;
+    color: #e8efbc;
+    color: #f5d1a7;
+    color: #d68870;
+    color: #bf5553;
+}
+color_palette_4{
+    color:#FFD700;
+    color:#C0C0C0;
+    color:#CD7F32'
+}
+Turbo{
+    color:#30123b;
+    color:#4145ab;
+    color:#4675ed;
+    color:#39a2fc;
+    color:#1bcfd4;
+    color:#24eca6;
+    color:#61fc6c;
+    color:#a4fc3b;
+    color:#d1e834;
+    color:#f3c63a;
+    color:#fe9b2d;
+    color:#f36315;
+    color:#d93806;
+    color:#b11901;
+    color:#7a0402;
+}
+Plotly3{
+    color:#0508b8;
+    color:#1910d8;
+    color:#3c19f0;
+    color:#6b1cfb;
+    color:#981cfd;
+    color:#bf1cfd;
+    color:#dd2bfd;
+    color:#f246fe;
+    color:#fc67fd;
+    color:#fe88fc;
+    color:#fea5fd;
+    color:#febefe;
+    color:#fec3fe;
+}
+
+Viridis{
+    color:#440154;
+    color:#482878;
+    color:#3e4989;
+    color:#31688e;
+    color:#26828e;
+    color:#1f9e89;
+    color:#35b779;
+    color:#6ece58;
+    color:#b5de2b;
+    color:#fde725;
+}
+Cividis{
+    color:#00224e;
+    color:#123570;
+    color:#3b496c;
+    color:#575d6d;
+    color:#707173;
+    color:#8a8678;
+    color:#a59c74;
+    color:#c3b369;
+    color:#e1cc55;
+    color:#fee838;
+}
+
+Inferno{
+    color:#000004;
+    color:#1b0c41;
+    color:#4a0c6b;
+    color:#781c6d;
+    color:#a52c60;
+    color:#cf4446;
+    color:#ed6925;
+    color:#fb9b06;
+    color:#f7d13d;
+    color:#fcffa4;
+}
+Magma{
+    color:#000004;
+    color:#180f3d;
+    color:#440f76;
+    color:#721f81;
+    color:#9e2f7f;
+    color:#cd4071;
+    color:#f1605d;
+    color:#fd9668;
+    color:#feca8d;
+    color:#fcfdbf;
+}
+Plasma{
+    color:#0d0887;
+    color:#46039f;
+    color:#7201a8;
+    color:#9c179e;
+    color:#bd3786;
+    color:#d8576b;
+    color:#ed7953;
+    color:#fb9f3a;
+    color:#fdca26;
+    color:#f0f921;
+}
+
