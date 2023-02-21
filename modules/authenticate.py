@@ -69,7 +69,7 @@ class Authenticate:
         hashed_pass = hash_object.hexdigest()
         query = f"EXEC USP_KIDS_LOGIN '{self.username}','{hashed_pass}'" 
 
-        result = self.db.run_query(self.db.conn,query)
+        result = self.db.run_query(self.db,query)
         if not result.empty:
             try:
                 if inplace:
@@ -83,7 +83,7 @@ class Authenticate:
                         expires_at=datetime.now() + timedelta(days=self.cookie_expiry_days))
                     st.session_state['authentication_status'] = True
                     st.session_state['Logout'] = False
-                    st.cache_data.clear()
+                    st.cache_data.clear()                    
 
                 else:
                     return True
@@ -143,11 +143,10 @@ class Authenticate:
                 st.session_state['UserName'] = None
                 st.session_state['EmployeeID'] = None
                 st.session_state['EmployeeName'] = None
-                
-        
+                        
     def sidebar(self):
         query = f"EXEC USP_KIDS_PermissionLeftMenu '{st.session_state['UserID']}'"
-        result = self.db.run_query(self.db.conn,query)
+        result = self.db.run_query(self.db,query)
         st.sidebar.title(":chart_with_upwards_trend: **KIDSPLAZA**")
         st.sidebar.title(f":sparkler: Welcome {st.session_state['EmployeeName']} :tada:")
         if not result.empty:

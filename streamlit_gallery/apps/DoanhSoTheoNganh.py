@@ -54,7 +54,7 @@ def main():
         elif st.session_state.load_state:
             query = f"EXEC USP_KIDS_TEST '{st.session_state.start_date}','{st.session_state.end_date}','{st.session_state.option}'" 
 
-        dataframes = db.run_query_multi_tables(db.conn,query)
+        dataframes = db.run_query_multi_tables(db,query)
         #Design and visualize data
         df_0 = dataframes[0]
         df_1 = dataframes[1]
